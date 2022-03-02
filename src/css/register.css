@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.login-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 92vh;
+  background-color: #233656;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: white;
+  width: 28%;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.login-para-company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+.login-company-name {
+  color: rgba(0, 128, 255, 0.685);
+  font-weight: 500;
+}
+
+.insurance {
+  margin-left: 5px;
+  color: black;
+}
+
+.login-img-mobile-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.login-img {
+  height: 100px;
+}
+
+.login-img-text {
+  margin-left: 10px;
+  color: black;
+  width: 250px;
+}
+
+.login-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(128, 128, 128, 0.644);
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.otp-input-box {
+  margin-top: 5px;
+  justify-content: flex-start;
+}
+
+.login-india-svg {
+  height: 30px;
+}
+
+.login-mobile-number {
+  width: 80%;
+  margin-left: 5px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+}
+
+.login-mobile-number:focus {
+  border: none;
+  outline: none;
+}
+
+.login-sign-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.ahref:hover {
+  color: white;
+}
+
+.sign-in-text {
+  background: rgba(0, 128, 255, 0.685);
+  color: white;
+  width: 80%;
+  height: 50px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.first-time-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.first-time-user-para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.register {
+  display: flex;
+  align-items: center;
+  margin-left: 2px;
+  text-decoration: none;
+  font-size: 1rem;
+  width: 65px;
+  height: 30px;
+  color: blue;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.please-enter-10-digits-number {
+  margin-top: 0px;
+  width: 80%;
+  color: rgba(201, 13, 13, 0.829);
+  font-size: 15px;
+}
+
+/* .proceed-button {
+  display: none;
+} */

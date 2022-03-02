@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.emi-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 92vh;
+  background-color: #233656;
+}
+
+.emi-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: white;
+  width: 28%;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.emi-para-company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+.emi-company-name {
+  color: rgba(0, 128, 255, 0.685);
+  font-weight: 500;
+}
+
+.insurance {
+  margin-left: 5px;
+  color: black;
+}
+
+.emi-img-mobile-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.emi-img {
+  height: 100px;
+}
+
+.emi-img-text {
+  margin-left: 10px;
+  color: black;
+  width: 250px;
+}
+
+.emi-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(128, 128, 128, 0.644);
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.emi-india-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 30px;
+  color: rgba(0, 128, 255, 0.685);
+}
+
+.emi-mobile-number {
+  width: 80%;
+  margin-left: 5px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+}
+
+.emi-mobile-number:focus {
+  border: none;
+  outline: none;
+}
+
+.emi-sign-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.calculate-text {
+  background: rgba(0, 128, 255, 0.685);
+  color: white;
+  width: 80%;
+  height: 50px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  font-weight: 500;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* .emi-value {
+  display: none;
+} */

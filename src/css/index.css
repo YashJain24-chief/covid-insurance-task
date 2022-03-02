@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue-background: rgba(0, 128, 255, 0.685);
+  --linear-gradient-blue-background: linear-gradient(
+    to right bottom,
+    rgb(0, 127, 255),
+    rgb(0, 89, 178) 120%
+  );
+  --padding-10px: 10px;
+  --padding-5px: 5px;
+  --margin-left-right: 5px;
+  --font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+/* navbar starts here */
+.navClass {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--linear-gradient-blue-background);
+  font-family: var(--font-family);
+  position: sticky;
+  top: 0;
+}
+
+.nav-div-logo-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: var(--margin-left-right);
+  padding: var(--padding-10px);
+}
+
+.navImg {
+  height: 25px;
+}
+
+.nav-name {
+  margin-left: var(--margin-left-right);
+  color: white;
+}
+
+.ul-class {
+  display: flex;
+}
+
+.ul-li,
+.ul-li-a {
+  list-style: none;
+  color: white;
+  padding: var(--padding-10px);
+  margin: 0 var(--margin-left-right);
+  cursor: pointer;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.ul-li:hover,
+.ul-li-a:hover {
+  background-color: white;
+  color: var(--blue-background);
+}
+
+.div-login-register {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: var(--margin-left-right);
+}
+
+.login-register {
+  color: white;
+  width: 90px;
+  padding: var(--padding-5px);
+  text-decoration: none;
+  border-radius: 20px;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 18px;
+}
+
+.login-register:hover {
+  background-color: white;
+  color: var(--blue-background);
+}
+/* navbar ends here */
+
+/* hero section starts here */
+
+.hero-section {
+  width: 60%;
+  margin: 10px auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  padding: var(--padding-10px);
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.hero-section-img {
+  height: 250px;
+}
+
+.hero-section-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero-section-p {
+  width: 250px;
+  margin-left: 20px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  padding: var(--padding-10px);
+  border-radius: 20px;
+  font-size: 1.5rem;
+}
+
+.hero-section-card-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.hero-card {
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 90px;
+  text-align: center;
+  padding: var(--padding-10px);
+  border-radius: 20px;
+  background: var(--blue-background);
+  color: white;
+}
+/* hero section ends here */
+
+/* top-plans section starts here */
+.top-plans {
+  width: 60%;
+  background: #edeff1;
+  height: 1740px;
+  margin: 10px auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.top-plans-paragraph {
+  color: white;
+  background-color: var(--blue-background);
+  font-family: "Baloo Bhaijaan 2", cursive;
+  padding: 10px;
+  font-size: 20px;
+}
+.top-plans-card {
+  padding: var(--padding-10px);
+  width: 90%;
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.top-plans-card-title {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+.top-plans-card-type {
+  background-color: var(--blue-background);
+  padding: var(--padding-10px);
+  height: 40px;
+  width: 90px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+.top-plans-card-features {
+  padding: var(--padding-5px);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inside-top-plan-card-features {
+  display: flex;
+  align-items: center;
+}
+.top-plan-card-feature-star {
+  height: 20px;
+}
+
+.top-plans-card-features-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  line-height: 20px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  /* align-items: center; */
+}
+
+.check-premium {
+  width: 40%;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+.button-check-premium {
+  background-color: rgba(194, 7, 7, 0.774);
+  padding: 10px;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+/* top-plans section ends here */
+
+/* insurance-coverage starts here */
+.covergae-plan-margin {
+  margin-top: 40px;
+}
+
+.covergae-plans-div-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.covergae-plan-card {
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  font-size: 1.2rem;
+}
+
+.covergae-plan-card-blue {
+  background-color: var(--blue-background);
+  color: white;
+}
+/* insurance-coverage ends here */
+
+/* insurance table starts here */
+
+.insurance-table {
+  width: 100%;
+}
+.insurance-table-div {
+  overflow: auto;
+  color: white;
+  background-color: var(--blue-background);
+}
+
+.insurance-table-main {
+  width: 100%;
+}
+
+td {
+  border: 2px solid white;
+  padding: 8px;
+}
+/* insurance table ends here */
